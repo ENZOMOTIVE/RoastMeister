@@ -1,10 +1,20 @@
 # RoastMeister
 
-> RoastMeister is a Python project organized around scripts, experiments, or backend modules.
+> RoastMeister is a Discord bot concept for hosting roast events and community interactions.
 
 ## The Story
 
 RoastMeister starts with a simple goal: collect Python exercises or scripts in a way that stays easy to run and extend. Its shape tells the same story: the service layer sits at the center so a maintainer can understand the project before diving into individual files.
+
+## Detailed Description
+
+RoastMeister is a Discord bot concept for hosting roast events and community interactions. This README is meant to explain the project like a handoff note: what the idea is, why the repository exists, and how someone can start working with it without opening every file first.
+
+The value is in clear, runnable examples. Small scripts become much easier to learn from when inputs, outputs, and assumptions are written down next to the code.
+
+At the top level, the most important entry points are `.env`, `bot.py`, `commands`, and `config.py`. Together they show the current boundary of the project and make it easier to separate product code, support files, documentation, and experiments.
+
+The visible stack currently points to `Python`. Keep this list honest as the project changes so the README remains useful as a first technical map.
 
 ## What It Includes
 
