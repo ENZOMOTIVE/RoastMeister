@@ -1,11 +1,16 @@
 # RoastMeister
 
-`RoastMeister` contains Python project files and scripts. Use this README as the setup and maintenance guide for the repository.
+## Project Tags
+
+- No requested category tag currently applies.
+
+## Overview
+
+RoastMeister is a Python project with scripts or backend modules.
 
 ## Features
 
-- Python scripts/modules for the project workflow
-- Command-based bot structure with separate command modules
+- Backend service, API, websocket, bot, or server workflow
 
 ## Tech Stack
 
@@ -13,54 +18,53 @@
 
 ## Project Structure
 
-- `.env` - project file
-- `.gitattributes` - project file
-- `.gitignore` - project file
-- `README.md` - project documentation
-- `bot.py` - project file
-- `commands` - project directory
-- `config.py` - project file
+- `.env` - project file or directory
+- `.gitattributes` - project file or directory
+- `.gitignore` - project file or directory
+- `bot.py` - project file or directory
+- `commands` - project file or directory
+- `config.py` - project file or directory
 
 ## Getting Started
 
 ### Prerequisites
 
+- Git
 - Python 3.10+
 
-### Setup
+### Setup and Run
 
 ```bash
 git clone https://github.com/ENZOMOTIVE/RoastMeister.git
 cd RoastMeister
 ```
 
-Create a virtual environment before running Python scripts, then install any project requirements if a requirements file is added.
+For Python scripts, create a virtual environment first, then run the relevant script from the repository root.
 
-## Available Commands
+## Commands
 
-- No package scripts were detected in the current repository contents.
+- No automated command set is declared yet; document commands here as tooling is added.
 
 ## Configuration
 
-- Create a local `.env` file for secrets, API keys, RPC URLs, private keys, bot tokens, or database credentials.
-- Keep `.env` files out of version control and document required variable names as the project stabilizes.
+- Document required service ports, database URLs, and API credentials before deployment.
 
 ## Testing and Quality
 
-- Automated tests are not documented yet. Add test commands here when test coverage is introduced.
+- No automated test workflow is declared yet; add tests and document the command here as the project matures.
 
-## Roadmap
+## Documentation Notes
 
-- Keep setup instructions aligned with the actual project workflow.
-- Add screenshots, architecture notes, or API examples as the implementation grows.
-- Document deployment steps once the hosting target is finalized.
+- Keep this README aligned with the actual source layout and commands.
+- Add screenshots, API examples, contract addresses, or deployment links when they become stable.
+- Update the project tags when the scope changes.
 
 ## Contributing
 
-1. Create a feature branch.
-2. Make focused changes and update documentation when behavior changes.
+1. Create a focused branch for the change.
+2. Update code and documentation together.
 3. Run the relevant checks before opening a pull request.
 
 ## License
 
-No license file is currently included. Add one before distributing or reusing this project publicly.
+No license file is currently committed. Add one before distributing this project publicly.
