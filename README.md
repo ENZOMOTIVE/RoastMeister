@@ -1,69 +1,62 @@
 # RoastMeister
 
-## Project Tags
+> RoastMeister is a Python project organized around scripts, experiments, or backend modules.
 
-- No requested category tag currently applies.
+## The Story
 
-## Overview
+RoastMeister starts with a simple goal: collect Python exercises or scripts in a way that stays easy to run and extend. Its shape tells the same story: the service layer sits at the center so a maintainer can understand the project before diving into individual files.
 
-RoastMeister is a Python project with scripts or backend modules.
+## What It Includes
 
-## Features
+- A service layer for APIs, realtime behavior, bot logic, or server-side workflows.
 
-- Backend service, API, websocket, bot, or server workflow
+## How It Is Put Together
 
-## Tech Stack
+| Path | Role |
+| --- | --- |
+| `.env` | project file or folder |
+| `.gitattributes` | project file or folder |
+| `.gitignore` | ignored local, dependency, and build files |
+| `bot.py` | Python script or module |
+| `commands` | project file or folder |
+| `config.py` | Python script or module |
 
-- Python
-
-## Project Structure
-
-- `.env` - project file or directory
-- `.gitattributes` - project file or directory
-- `.gitignore` - project file or directory
-- `bot.py` - project file or directory
-- `commands` - project file or directory
-- `config.py` - project file or directory
-
-## Getting Started
-
-### Prerequisites
-
-- Git
-- Python 3.10+
-
-### Setup and Run
+## Local Development
 
 ```bash
 git clone https://github.com/ENZOMOTIVE/RoastMeister.git
 cd RoastMeister
 ```
 
-For Python scripts, create a virtual environment first, then run the relevant script from the repository root.
+For Python exercises or scripts, run the relevant file with `python3 path/to/file.py`.
 
-## Commands
+## Command Surface
 
-- No automated command set is declared yet; document commands here as tooling is added.
+The repository does not declare a shared command table yet. Use the local development notes above for the current workflow, then promote repeatable commands here as the project grows.
 
 ## Configuration
 
-- Document required service ports, database URLs, and API credentials before deployment.
+- Document API ports, database URLs, third-party credentials, and service endpoints in `.env.example` before deployment.
 
-## Testing and Quality
+## Quality Checks
 
-- No automated test workflow is declared yet; add tests and document the command here as the project matures.
+- Run the changed Python scripts with representative inputs before committing.
 
-## Documentation Notes
+## Where To Take It Next
 
-- Keep this README aligned with the actual source layout and commands.
-- Add screenshots, API examples, contract addresses, or deployment links when they become stable.
-- Update the project tags when the scope changes.
+- Document the main API routes, bot events, or service responsibilities with example inputs and outputs.
+- Add sample inputs, outputs, or screenshots for the most useful scripts.
+- Keep setup commands current whenever dependencies, scripts, or deployment targets change.
+- Record important product decisions here so the repository keeps its story as the code evolves.
 
-## Contributing
+## Project Metadata
 
-1. Create a focused branch for the change.
-2. Update code and documentation together.
-3. Run the relevant checks before opening a pull request.
+| Field | Details |
+| --- | --- |
+| Repository | `ENZOMOTIVE/RoastMeister` |
+| Categories | `General` |
+| Primary stack | Python |
+
 
 ## License
 
